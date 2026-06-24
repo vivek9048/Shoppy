@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Electronics Collection</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:linear-gradient(
+        135deg,
+        #0f172a,
+        #1e293b,
+        #334155
+    );
+    color:white;
+}
+
+.back-btn{
+    display:inline-block;
+    margin:20px;
+    padding:12px 25px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.back-btn:hover{
+    background:#1d4ed8;
+}
+
+h1{
+    text-align:center;
+    padding:20px;
+    font-size:3rem;
+    letter-spacing:2px;
+}
+
+.products{
+    width:90%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+    padding-bottom:50px;
+}
+
+.card{
+    background:white;
+    color:black;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+    transition:.3s;
+    text-align:center;
+    padding-bottom:20px;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+}
+
+.card h3{
+    margin-top:15px;
+    font-size:24px;
+}
+
+.card p{
+    margin:10px 0;
+    color:#2563eb;
+    font-weight:bold;
+    font-size:20px;
+}
+
+button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#1d4ed8;
+}
+
+</style>
+</head>
+
+<body>
+
+<a href="jk.html" class="back-btn">← Back to Home</a>
+
+<h1>💻 Electronics Collection</h1>
+
+<div class="products">
+
+    <div class="card">
+        <img src="lap/Top Laptops for Battery Life 2025.jpg" alt="Dell Inspiron">
+        <h3>Dell Inspiron</h3>
+        <p>$799</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="lap/Lenovo LOQ Essential (i5-12450HX + RTX 4050).jpg" alt="HP Pavilion">
+        <h3>HP Pavilion</h3>
+        <p>$850</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="lap/This Research Trick Uncovers Hidden Laptop Deals & Compares Specs Easily.jpg" alt="Lenovo IdeaPad">
+        <h3>Lenovo IdeaPad</h3>
+        <p>$720</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="lap/Laptop.jpg" alt="Asus VivoBook">
+        <h3>Asus VivoBook</h3>
+        <p>$899</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="lap/Laptop.jpg" alt="MacBook Air">
+        <h3>MacBook Air</h3>
+        <p>$1199</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="lap/Top Laptops for Battery Life 2025.jpg" alt="Acer Aspire">
+        <h3>Acer Aspire 7</h3>
+        <p>$699</p>
+        <button>Add to Cart</button>
+    </div>
+
+</div>
+
+</body>
+</html>

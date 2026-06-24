@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Fashion Collection</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    background:linear-gradient(
+        135deg,
+        #7c2d12,
+        #b45309,
+        #f59e0b
+    );
+    color:white;
+}
+
+.back-btn{
+    display:inline-block;
+    margin:20px;
+    padding:12px 25px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.back-btn:hover{
+    background:#1d4ed8;
+}
+
+h1{
+    text-align:center;
+    padding:20px;
+    font-size:3rem;
+    letter-spacing:2px;
+}
+
+.products{
+    width:90%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+    padding-bottom:50px;
+}
+
+.card{
+    background:white;
+    color:black;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+    transition:.3s;
+    text-align:center;
+    padding-bottom:20px;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card img{
+    width:100%;
+    height:320px;
+    object-fit:cover;
+}
+
+.card h3{
+    margin-top:15px;
+    font-size:22px;
+}
+
+.card p{
+    margin:10px 0;
+    color:#dc2626;
+    font-weight:bold;
+    font-size:20px;
+}
+
+button{
+    background:#dc2626;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#b91c1c;
+}
+
+</style>
+
+</head>
+<body>
+
+<a href="jk.html" class="back-btn">← Back to Home</a>
+
+<h1>👗 Fashion Collection</h1>
+
+<div class="products">
+
+    <div class="card">
+        <img src="fashion/download (6).jpg" alt="Summer Dress">
+        <h3>Summer Dress</h3>
+        <p>$50</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="fashion/download (5).jpg" alt="Party Dress">
+        <h3>Party Dress</h3>
+        <p>$60</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="fashion/download (7).jpg" alt="Floral Dress">
+        <h3>Floral Dress</h3>
+        <p>$45</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="fashion/download (5).jpg" alt="Casual Dress">
+        <h3>Casual Dress</h3>
+        <p>$55</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="fashion/download (3).jpg" alt="Maxi Dress">
+        <h3>Maxi Dress</h3>
+        <p>$70</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="fashion/download (4).jpg" alt="Cotton Dress">
+        <h3>Cotton Dress</h3>
+        <p>$40</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="fashion/download (7).jpg" alt="Designer Dress">
+        <h3>Designer Dress</h3>
+        <p>$85</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="fashion/download (3).jpg" alt="Red Dress">
+        <h3>Red Dress</h3>
+        <p>$65</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="fashion/download (7).jpg" alt="Black Dress">
+        <h3>Black Dress</h3>
+        <p>$75</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="fashion/Men's Summer Capsule Wardrobe + 20 Outfit Ideas _ Erika Marie.jpg" alt="Elegant Fashion">
+        <h3>Elegant Collection</h3>
+        <p>$95</p>
+        <button>Add to Cart</button>
+    </div>
+
+</div>
+
+</body>
+</html>
